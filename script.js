@@ -36,11 +36,9 @@ askWord();
 
     // l'utente inserisce un numero da 1 a 5
     let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5'))
+    //genero un numero random per il computer (da 1 a 5
+    let pcNumber = Math.floor(Math.random() * 5) +1;
 
-    // Funzione per generare un numero random per il computer (da 1 a 5) 
-    function randomNumber (){
-        let pcNumber = Math.floor(Math.random() * 5) +1;
-    }
     // sommiamo i due numeri
     let sum = userNumber + pcNumber;
 
@@ -53,6 +51,17 @@ askWord();
             return `dispari`
         }
     }
+    //determinare se la somma è pari o dispari
+    let resultSum = evenOdd(sum)
 
+    // verifichiamo chi ha vinto tra utente e computer
+    if(userChoice==resultSum){
+        console.log("l'utente ha vinto");
+    }
+
+    else{
+        console.log("Il computer ha vinto");
+        
+    }
    
     
