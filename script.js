@@ -54,6 +54,9 @@ askWord();
     //determinare se la somma è pari o dispari
     let resultSum = evenOdd(sum)
 
+    // mostra il risultato della somma
+    console.log(`Il numero scelto dal pc è ${pcNumber}. La somma è ${sum}, che è ${resultSum}.`)
+
     // verifichiamo chi ha vinto tra utente e computer
     if(userChoice==resultSum){
         console.log("l'utente ha vinto");
