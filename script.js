@@ -31,10 +31,28 @@ askWord();
 
 // Pari o dispari
 
-//dichiaro una funzione
-function play (){
     //l'utente sceglie pari o dispari
     let userChoice = prompt ('Scegli pari o dispari')
+
     // l'utente inserisce un numero da 1 a 5
     let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5'))
-}
+
+    // Funzione per generare un numero random per il computer (da 1 a 5) 
+    function randomNumber (){
+        let pcNumber = Math.floor(Math.random() * 5) +1;
+    }
+    // sommiamo i due numeri
+    let sum = userNumber + pcNumber;
+
+    //  Funzione per determinare se la somma dei due numeri è pari o dispari 
+    function evenOdd(number){
+        if(sum % 2=== 0){
+            return 'pari'
+        }
+        else{
+            return `dispari`
+        }
+    }
+
+   
+    
