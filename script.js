@@ -27,3 +27,14 @@ function askWord() {
 
 // Chiamare la funzione per chiedere la parola all'utente
 askWord();
+
+
+// Pari o dispari
+
+//dichiaro una funzione
+function play (){
+    //l'utente sceglie pari o dispari
+    let userChoice = prompt ('Scegli pari o dispari')
+    // l'utente inserisce un numero da 1 a 5
+    let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5'))
+}
