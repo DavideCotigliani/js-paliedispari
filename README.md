@@ -1,6 +1,8 @@
 Palindroma
 Chiedere all’utente di inserire una parola, Creare una funzione per capire se la parola inserita è palindroma
 <!-- Definisco una funzione -->
+<!-- Nella funzione dichiaro una variabile per crare una parola palindroma -->
+<!--  per farmi restituire un valore uso return -->
 <!-- Nel frattempo mi scrivo il comando che chiede all'utente di inserire una parola -->
 <!-- Mi scrivo intanto il check per la verifica Se è palindroma o meno, come bozza  --
 
